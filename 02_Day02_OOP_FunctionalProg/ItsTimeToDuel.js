@@ -13,6 +13,7 @@ class Unit {
 
 class Card extends Unit{
     constructor(name, cost, text, stat, magnitude) {
+        super((name, cost, power, resilience))
         this.name = name;
         this.cost = cost;
         this.text = text;
@@ -21,6 +22,8 @@ class Card extends Unit{
     }
 
     play(targetUnit) {
+        if(this.stat=="resilience")
+        {}
             targetUnit.resilience += this.magnitude;
             return this
         }
