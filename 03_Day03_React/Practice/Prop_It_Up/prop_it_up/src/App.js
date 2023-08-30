@@ -15,12 +15,11 @@ function App() {
     { first_name: "Maria", last_name: "Smith", age: 62, hair_color: "Brown" },
   ];
   return (
-    <div className="App" class="row border border-1">
+    <div className="App" class="d-flex justify-content-center">
       <header className="App-header">
         <div>
           <div>
             <PersonCard person={person} />
-            
           </div>
         </div>
       </header>

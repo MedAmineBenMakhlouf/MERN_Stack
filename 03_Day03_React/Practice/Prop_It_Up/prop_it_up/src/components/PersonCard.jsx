@@ -4,8 +4,8 @@ class PersonCard extends Component {
   render() {
     return (
       <div>
-        {this.props.person.map(p => 
-        <div>
+        {this.props.person.map((p,index) =>  
+        <div key={index} className='App'>
         <h1>
             {p.last_name},{p.first_name}
         </h1>
