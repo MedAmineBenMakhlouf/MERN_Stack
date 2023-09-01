@@ -113,7 +113,7 @@ const Form = () => {
                             ''
                     }
                     </p>
-                    <input type="submit" value="Ab3eth la5ra" />
+                    <input type="submit" value="Send" />
             </form>
         </>
     )
