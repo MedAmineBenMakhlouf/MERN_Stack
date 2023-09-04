@@ -1,0 +1,12 @@
+.container_color{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.color{
+    width:200px;
+    height:200px;
+    flex-wrap: wrap;
+    display: flex;
+}
