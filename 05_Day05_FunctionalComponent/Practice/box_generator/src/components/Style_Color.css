@@ -5,8 +5,7 @@
     flex-wrap: wrap;
 }
 .color{
-    width:200px;
-    height:200px;
     flex-wrap: wrap;
     display: flex;
+    margin: 2px;
 }
