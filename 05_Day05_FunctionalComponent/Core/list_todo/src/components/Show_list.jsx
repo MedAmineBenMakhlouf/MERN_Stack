@@ -12,9 +12,9 @@ const Show_list = ({ ToDoList,setListOfToDo,deleteTodo }) => {
                                 ?{textDecoration:'line-through'}
                                 :{textDecoration:'none'}}>{todo.content}</span> <input type="checkbox" checked={todo.isCompleted}
                                 onChange={(e)=>{
-                                    const updatedList =  [...ToDoList]
-                                    updatedList[i].isCompleted = !updatedList[i].isCompleted
-                                    setListOfToDo(updatedList)}
+                                    // const updatedList =  [...ToDoList]
+                                    // updatedList[i].isCompleted = !updatedList[i].isCompleted
+                                    setListOfToDo([...ToDoList,!ToDoList[i].isCompleted])}
                                 }/> <button onClick={()=>deleteTodo(i)}>Delete</button>
                             </li>
                         </ul> 
