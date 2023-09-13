@@ -1,0 +1,12 @@
+const mongoose = require('mongoose')
+
+const AuthorSchema = new mongoose.Schema({
+    name:{
+        type:String,
+        required:[true,"Note title is required"],
+        minlength:[3,"Min length must be greater then 3 characters"]
+    }
+
+},{timestamps:true})
+
+module.exports = mongoose.model('Author',AuthorSchema)
