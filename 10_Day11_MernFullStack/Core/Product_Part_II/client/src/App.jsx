@@ -5,9 +5,9 @@ import './App.css'
 import { Link, Route, Routes } from 'react-router-dom'
 import FormPerson from './components/FormPerson'
 import ShowPerson from './components/ShowPerson'
+import Dashbord from './components/Dashbord'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -17,7 +17,7 @@ function App() {
 
       <Routes>
         <Route path='/api/products/:id' element={<ShowPerson/>}/>
-        <Route path='/' element={<FormPerson/>} />
+        <Route path='/' element={<Dashbord/>} />
       </Routes>
     </>
   )
