@@ -1,0 +1,61 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(200, 122, 5);
+  min-height: 100vh;
+  color: black;
+} 
+
+ .App-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(148, 79, 6);
+  
+}
+
+.App-header h1 {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.pirate {
+  background-color: antiquewhite;
+  /* text-align: left; */
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 0px 5px 10px 0px black;
+}
+.button_delete {
+  width: 100px;
+  height: 40px;
+  background-color: crimson;
+  color: aliceblue;
+  border: none;
+  box-shadow: 0px 5px 10px 0px black;
+  border-radius: 10px;
+}
+.button_edit {
+  width: 100px;
+  height: 40px;
+  background-color: cornflowerblue;
+  color: aliceblue;
+  border: none;
+  box-shadow: 0px 5px 10px 0px black;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.pirate-img {
+  margin-right: 10px;
+  height: 150px;
+  width: 150px;
+  margin-right: 8em;
+}
